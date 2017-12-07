@@ -1,3 +1,38 @@
 .social-card {
-  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  border: 1px solid #e8eae9;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 2px 1px #e8eae9;
 }
+
+.social-card__jumbotron {}
+  .social-card__jumbotron .social-card__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .social-card__jumbotron .social-card__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    font-size: 50px;
+    color: #FAFCFB;
+  }
+  .social-card__jumbotron .social-card__profile {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+.social-card__annotation {}
+  .social-card__annotation .social-card__title + .social-card__description,
+  .social-card__annotation .social-card__description + .social-card__website {
+    margin-top: 8px;
+  }
