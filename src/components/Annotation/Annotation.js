@@ -1,8 +1,8 @@
 import React from 'react';
 import './Annotation.css';
 
-const Annotation = ({ children }) => (
-  <div className="annotation">
+const Annotation = ({ className, children }) => (
+  <div className={`${className} annotation`}>
     { children }
   </div>
 );

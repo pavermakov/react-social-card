@@ -32,7 +32,7 @@ class SocialCard extends Component {
           <Profile className="social-card__profile" name={this.state.profile.name} image={this.state.profile.image} />
         </Jumbotron>
 
-        <Annotation>
+        <Annotation className="social-card__annotation">
           <Title className="social-card__title social-card__title_small" title={this.state.title} isSmall />
           <Description className="social-card__description" description={this.state.description} />
           <Website className="social-card__website" url={this.state.website.url} name={this.state.website.name} />
